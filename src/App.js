@@ -1,5 +1,5 @@
 import './App.css';
-import AddPage from './components/AddPage/addpage.component';
+import AddPage from './components/AddPage/add-page.component';
 
 function App() {
   return (
