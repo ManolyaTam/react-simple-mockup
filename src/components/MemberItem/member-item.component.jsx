@@ -7,7 +7,8 @@ const MemberItem = (props) => {
                 <i class="fa-solid fa-user"></i>
                 {props.fullname}</p>
 
-            <input type="checkbox" checked={props.checked} />
+            <input className='checkbox' type="checkbox" checked={props.checked} />
+            <span className='checkbox-custom'></span>
         </div>
     )
 }
