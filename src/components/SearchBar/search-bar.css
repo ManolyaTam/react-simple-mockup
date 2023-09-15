@@ -1,0 +1,14 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+  width: 400px;
+}
+
+.search-bar input[type="search"] {
+  font-size: 14px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+}

@@ -1,14 +1,11 @@
 import './search-members-form.css';
-import { MagnifyingGlass } from '@phosphor-icons/react';
+import SearchBar from '../SearchBar/search-bar.component';
 const SearchMembersForm = () => {
     return (
         <div className="search-form">
             <form>
+                <SearchBar />
                 <div className="search-field">
-                    {/* search bar -> seperate component? */}
-                    <MagnifyingGlass size={18} color="grey" weight="bold" />
-                    <input type="search" placeholder="Find members" />
-
                     {/* list -> seperate component? */}
                     <ul>
                         {/* use map to render a reusable component here <MemberItem/> */}
