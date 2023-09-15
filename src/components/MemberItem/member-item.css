@@ -1,0 +1,13 @@
+.member-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin: 5px 0;
+}
+
+.member-item .fa-user {
+  padding-right: 10px;
+}
