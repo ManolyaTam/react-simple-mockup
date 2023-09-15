@@ -3,7 +3,7 @@ import SearchMembersForm from "../SearchMembersForm/search-members-form.componen
 
 const AddPage = () => {
     return (
-        <div className='search-members-form'>
+        <div className='add-page'>
             <h4>Add memebers to Front-end development team</h4>
             <SearchMembersForm />
         </div>
